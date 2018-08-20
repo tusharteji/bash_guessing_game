@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 function guessinggame {
 printf "\033c"
 echo "Welcome to the Guessing Game"
@@ -38,3 +40,6 @@ echo ""
 else	echo "Wrong input, Try next time"
 fi
 }
+
+## Calling the function here
+guessinggame
